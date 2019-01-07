@@ -1,0 +1,154 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+/*Un font size del 100% equivale a un tamaño de 16px, por tanto, si quiero un tamaño de 90px tengo que
+hacer una regla de 3 y poner 562.5% --> Esto sirve para hacer el tamaño dinámico.
+16px también equivalen a 1em, es decir: 16px = 100% = 1em. Por lo que si quiero 90px tendré que
+poner 5.625em
+El problema del % y el em, es que se acumulan, por lo que si en BODY pongo un % o em, y luego más abajo en un H1
+por ejemplo lo vuelvo a poner, se multiplica el tamaño. Para ello lo que he de hacer es poner una R delante del em
+es decir: rem. Así la fila que edite con em será independiente y no se acumulará*/
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+margin: 100px auto 100px auto;
+}
+.buttom-container {
+background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.perfil-img {
+    width: 20%;
+}
+
+.contact-messaje {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.statistics-img {
+  width: 25%;
+  float: left;
+  /*FLOAT hace que la imagen flote al mismo nivel que el texto*/
+  padding-right: 30px;
+}
+/*Hay que conocer la propiedad CLEAR, hace lo contrario que FLOAT*/
+
+.farola-img {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.bajo-hello {
+  width: 30%;
+  margin: auto;
+  color: #40514E
+}
+
+.button {
+  -webkit-border-radius: 60;
+  - radio-borde-radio: 60;
+  radio del borde: 60px;
+  Familia tipográfica: Georgia;
+  color: #ffffff;
+  tamaño de letra: 22px;
+  fondo: # 66bfbf;
+  relleno: 5px 20px 5px 20px;
+  texto-decoración: ninguno;
+}
+
+.btn {
+  background: #3cf0fd;
+  background-image: -webkit-linear-gradient (top, #3cf0fd, #417877);
+  background-image: -moz-linear-gradient (top, #3cf0fd, #417877);
+  background-image: -ms-linear-gradient (top, #3cf0fd, #417877);
+  background-image: -o-lineal-gradiente (top, #3cf0fd, #417877);
+  background-image: linear-gradient(button, #3cf0fd, #417877);
+  -webkit-border-radius: 60;
+  -webkit-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn: hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient (top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient (top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient (top, #30e3cb, #2bc4ad);
+  background-image: -o-lineal-gradiente (top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient (al final, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
